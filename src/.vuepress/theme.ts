@@ -102,6 +102,16 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
+    redirect: {
+      defaultLocale: "/",
+      autoLocale: true,
+      switchLocale: "modal",
+      localeConfig: {
+        "/": ["en-US", "en-UK", "en"],
+        "/zh/": ["zh-CN", "zh-TW", "zh"],
+      }
+    },
+
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,

@@ -8,6 +8,9 @@ devDependencies:
   '@vuepress/bundler-vite':
     specifier: 2.0.0-rc.9
     version: 2.0.0-rc.9
+  '@vuepress/plugin-redirect':
+    specifier: 2.0.0-rc.23
+    version: 2.0.0-rc.23(vuepress@2.0.0-rc.9)
   vue:
     specifier: ^3.4.21
     version: 3.4.21
@@ -16,7 +19,7 @@ devDependencies:
     version: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9)(vue@3.4.21)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.33
-    version: 2.0.0-rc.33(markdown-it@14.1.0)(vuepress@2.0.0-rc.9)
+    version: 2.0.0-rc.33(@vuepress/plugin-redirect@2.0.0-rc.23)(markdown-it@14.1.0)(vuepress@2.0.0-rc.9)
 
 packages:
 
@@ -1215,6 +1218,22 @@ packages:
       vue: 3.4.21
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9)(vue@3.4.21)
     transitivePeerDependencies:
+      - typescript
+    dev: true
+
+  /@vuepress/plugin-redirect@2.0.0-rc.23(vuepress@2.0.0-rc.9):
+    resolution: {integrity: sha512-M5bZktu979axRKZEApwUM3z053yg6HFVR1yYjoAXYjLfvjsOdB3xqzPAbgIjd88AZ6qQX3fp58ZWO39E+aR+Pg==}
+    hasBin: true
+    peerDependencies:
+      vuepress: 2.0.0-rc.9
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.23(vuepress@2.0.0-rc.9)
+      '@vueuse/core': 10.9.0(vue@3.4.21)
+      cac: 6.7.14
+      vue: 3.4.21
+      vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9)(vue@3.4.21)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
       - typescript
     dev: true
 
@@ -2691,7 +2710,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-theme-hope@2.0.0-rc.33(markdown-it@14.1.0)(vuepress@2.0.0-rc.9):
+  /vuepress-theme-hope@2.0.0-rc.33(@vuepress/plugin-redirect@2.0.0-rc.23)(markdown-it@14.1.0)(vuepress@2.0.0-rc.9):
     resolution: {integrity: sha512-6XeRgUYwlrzGN9FjT37ZmFCBUnr4WRc3YFwLHye0A2YmuTEsuP6LAYZqdWwrpAgXDOkZXe4LYYItodx/BIx59w==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -2737,6 +2756,7 @@ packages:
       '@vuepress/plugin-photo-swipe': 2.0.0-rc.23(vuepress@2.0.0-rc.9)
       '@vuepress/plugin-prismjs': 2.0.0-rc.21(vuepress@2.0.0-rc.9)
       '@vuepress/plugin-reading-time': 2.0.0-rc.23(vuepress@2.0.0-rc.9)
+      '@vuepress/plugin-redirect': 2.0.0-rc.23(vuepress@2.0.0-rc.9)
       '@vuepress/plugin-rtl': 2.0.0-rc.21(vuepress@2.0.0-rc.9)
       '@vuepress/plugin-seo': 2.0.0-rc.23(vuepress@2.0.0-rc.9)
       '@vuepress/plugin-sitemap': 2.0.0-rc.23(vuepress@2.0.0-rc.9)
