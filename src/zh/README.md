@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 #heroImage: https://thirdqq.qlogo.cn/g?b=sdk&k=LohjyLqEnJb0ExLDica62pw&s=5&t=1513122185
-bgImage: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TAeCXE1g6e2aC87v6_!!1797064093.png
+bgImage: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TAeCXE1g6e2aC87v6_!!1797064093.png_.webp
 heroText: Masterain 的主页
 tagline: Be smart. Be studious.
 heroFullScreen: true
