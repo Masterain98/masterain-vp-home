@@ -29,6 +29,6 @@ projects:
     desc: 我用来分享各种更新的频道
     link: https://t.me/masterain
 
-footer: Be smart. Be studious.
+footer: 我其实什么都不知道。
 ---
 

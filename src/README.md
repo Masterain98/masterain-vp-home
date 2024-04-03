@@ -29,6 +29,6 @@ projects:
     desc: Somewhere I share updates
     link: https://t.me/masterain
 
-footer: Be smart. Be studious.
+footer: The more we know, the more we realize how little we know.
 ---
 

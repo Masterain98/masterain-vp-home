@@ -3,7 +3,7 @@
 - ✨ ID: Masterain, tianyu
 - 🌎 Location: San Jose, CA
 - 👨‍🎓 Major
-  - Bachelor of Science in Business Administration
+  - Bachelor of Science in Business Administration, International Business
   - Master of Science in Information Systems
 - 🏫 Alumni of SJSU and SCU
 - 👨‍💻 Data Analyst
